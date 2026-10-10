@@ -8,4 +8,7 @@
     <string name="nomor2">0812 2222 2222</string>
     <string name="nomor3">0813 3333 3333</string>
     <string name="nomor4">0814 4444 4444</string>
+    <string name="alamat1">Batur, Banjarnegara</string>
+    <string name="alamat2">Kalibening, Banjarnegara</string>
+    <string name="alamat3">Pejawaran, Banjarnegara</string>
 </resources>
