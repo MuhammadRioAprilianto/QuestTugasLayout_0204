@@ -78,6 +78,13 @@ fun customCard(
                     color = Color.Yellow,
                     modifier = Modifier.padding(top = 10.dp)
                 )
+                Image(
+                    painter = painterResource(id = gambar),
+                    contentDescription = null,
+                    modifier = Modifier
+                        .size(100.dp)
+                        .padding(5.dp)
+                )
             }
         }
     }
