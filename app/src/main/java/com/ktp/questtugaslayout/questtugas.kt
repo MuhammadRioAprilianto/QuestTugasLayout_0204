@@ -102,5 +102,12 @@ fun mainLayout() {
             fontSize = 22.sp
         )
         Spacer(modifier = Modifier.height(25.dp))
+        customCard(
+            backgroundColor = R.color.navy1,
+            nama = R.string.nama1,
+            nomor = R.string.nomor1,
+            alamat = R.string.alamat1,
+            gambar = R.drawable
+        )
     }
 }
