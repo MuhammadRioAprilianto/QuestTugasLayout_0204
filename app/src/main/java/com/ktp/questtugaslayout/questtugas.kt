@@ -19,6 +19,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontFamily
@@ -32,14 +33,15 @@ fun customCard(
     alamat: Int,
     gambar: Int,
     modifier: Modifier = Modifier,
-    backgroungColor: Color = Color.DarkGray
+    backgroundColor: Int
 ) {
+    val resolvedCardColor = colorResource(id = backgroundColor)
     Card(
         modifier = modifier
             .fillMaxWidth(1f)
             .clip(RoundedCornerShape(15.dp))
             .padding(12.dp),
-        colors = CardDefaults.cardColors(containerColor = backgroungColor)
+        colors = CardDefaults.cardColors(containerColor = resolvedCardColor)
     ) {
         Row(
             modifier = Modifier
