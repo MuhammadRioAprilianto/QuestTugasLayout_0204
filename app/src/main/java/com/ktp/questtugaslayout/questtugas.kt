@@ -114,7 +114,22 @@ fun mainLayout() {
             nama = R.string.nama1,
             nomor = R.string.nomor1,
             alamat = R.string.alamat1,
-            gambar = R.drawable
+            gambar = R.drawable.UMYLogo
         )
+        customCard(
+            backgroundColor = R.color.navy2,
+            nama = R.string.nama2,
+            nomor = R.string.nomor2,
+            alamat = R.string.alamat2,
+            gambar = R.drawable.UMYLogo
+        )
+        customCard(
+            backgroundColor = R.color.navy3,
+            nama = R.string.nama3,
+            nomor = R.string.nomor3,
+            alamat = R.string.alamat1,
+            gambar = R.drawable.UMYLogo
+        )
+
     }
 }
