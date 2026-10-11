@@ -1,5 +1,8 @@
 package com.ktp.questtugaslayout
 
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -14,13 +17,12 @@ import androidx.compose.ui.unit.dp
 
 @Composable
 fun customCard(
-    nama: String,
-    nomor: String,
-    alamat: String,
-    backgroungColor: Color,
-    contentColor: Color,
-    gambar: ImageVector,
-    modifier: Modifier = Modifier
+    nama: Int,
+    nomor: Int,
+    alamat: Int,
+    gambar: Int,
+    modifier: Modifier = Modifier,
+    backgroungColor: Color = Color.DarkGray
 ) {
     Card(
         modifier = modifier
@@ -29,6 +31,11 @@ fun customCard(
             .padding(15.dp),
         colors = CardDefaults.cardColors(containerColor = Color.Gray)
     ) {
-
+        Row(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(5.dp)
+                .
+        ) { }
     }
 }
