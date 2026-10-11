@@ -23,6 +23,7 @@ import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
@@ -88,5 +89,12 @@ fun mainLayout() {
             .fillMaxSize()
             .padding(16.dp),
         verticalArrangement = Arrangement.spacedBy(8.dp)
-    ) { }
+    ) {
+        Text(
+            stringResource(R.string.judul),
+            fontSize = 35.sp,
+            fontWeight = FontWeight.Bold,
+            fontFamily = FontFamily.Monospace
+        )
+    }
 }
