@@ -69,7 +69,7 @@ fun customCard(
                 Text(
                     text = stringResource(id = nama),
                     fontSize = 20.sp,
-                    fontFamily = FontFamily.Cursive,
+                    fontFamily = FontFamily.Default,
                     color = Color.White,
                     modifier = Modifier.padding(top = 15.dp)
                 )
